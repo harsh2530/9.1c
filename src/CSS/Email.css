@@ -1,0 +1,21 @@
+.emailinput {
+    flex-direction: row;
+    width: 500px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 01em;
+  }
+  .emailbutton {
+    margin-left: 50px;
+    font-size: 25px;
+    background: #9b9c9c;
+    height: 40px;
+    color: rgb(0, 0, 0);
+  }
+  .emailbutton:hover {
+    margin-left: 50px;
+    font-size: 25px;
+    background: #c7c7c7;
+    height: 40px;
+    color: rgb(0, 0, 0);
+  }

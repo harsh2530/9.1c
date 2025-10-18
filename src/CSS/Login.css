@@ -1,0 +1,65 @@
+.body, .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.body {
+  height: 100vh;
+  background-color: #393939;
+  color: #fff;
+}
+
+.container {
+  height: auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.signup {
+  color: #0074d9;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.signup:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.button, .button2 {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.button:hover, .button2:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #ff1493;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

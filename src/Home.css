@@ -1,0 +1,57 @@
+.navbar {
+    background-color: #000000; /* Background color for the navbar */
+    color: #fff; /* Text color for the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Search box styles */
+  .search-box {
+    flex: 1; /* Allow the search box to expand and fill available space */
+    margin: 0 20px; /* Add margins for spacing */
+  }
+  
+  /* Input field styles */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+/* Apply styles to the link to make it look like a button */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline; /* Display list items horizontally */
+}
+
+ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eaeef1; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none; /* Remove underline from the link */
+  border: none; /* Remove the button border */
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer;
+  margin-right: 10px; /* Add spacing between buttons */
+}
+
+/* Hover effect */
+ul li a:hover {
+  opacity: 0.8;
+}

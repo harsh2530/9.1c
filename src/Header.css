@@ -1,0 +1,73 @@
+/* Header.css */
+
+/* Base styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .search-box {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .search-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 0 10px;
+  }
+  
+ /* Styling for the button */
+button {
+  background-color: #0074d9; /* Change this to your desired button background color */
+  color: #fff; /* Change this to your desired button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Styling for the link inside the button */
+button .button {
+  text-decoration: none;
+  color: #fff; /* Change this to your desired link text color */
+}
+
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .search-box {
+      margin-top: 10px;
+    }
+  }
